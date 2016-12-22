@@ -864,10 +864,10 @@ end
 
 return {
     patterns = {
-        '^[!/# s](settings)$',
-        '^[!/#s ](settings) (.*) (.*)$',
-        '^[!/# r](rem)$',
-        '^[! /#s](setname) (.*)$',
+        '^(settings)$',
+        '^(settings) (.*) (.*)$',
+        '^(rem)$',
+        '^(setname) (.*)$',
         '^[!/ #s](setphoto)$',
         '^[!/# s](setphoto) (.*)$',
         '^[!/ #m](muteall)$',
